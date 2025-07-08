@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo de Roupas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+    }
+    .carousel-item {
+      text-align: center;
+    }
+    .carousel-item img {
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: white;
+      border: none;
+      margin-top: 15px;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+    .product-info {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h2 class="text-center mb-4">🛍️ Catálogo de Roupas</h2>
+
+    <div id="catalogoCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Produto 1 -->
+        <div class="carousel-item active">
+          <img src="top.jpg" class="d-block mx-auto w-50" alt="Top Verão">
+          <div class="product-info">
+            <h4>Slappywear</h4>
+            <p>R$ 120,00  | Cores: Branca, Preta</p>
+            <p>Tamanhos: P, M, G,GG</p>
+            <a href="https://wa.me/5547991757458?text=Olá!%20Tenho%20interesse%20no%20Top%20Verão." target="_blank" class="btn btn-whatsapp">Fazer pedido no WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="carousel-item">
+          <img src="top2.jpg" class="d-block mx-auto w-50" alt="Blusa Estilosa">
+          <div class="product-info">
+            <h4>Slappywear</h4>
+            <p>R$ 120,00 | Cores: Branca, Preta</p>
+            <p>Tamanhos: P, M, G,GG</p>
+            <a href="https://wa.me/5547991757458?text=Olá!%20Tenho%20interesse%20na%20Blusa%20Estilosa." target="_blank" class="btn btn-whatsapp">Fazer pedido no WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="carousel-item">
+          <img src="oi1.jpg" class="d-block mx-auto w-50" alt="Blusa Estilosa">
+          <div class="product-info">
+            <h4>Slappywear</h4>
+            <p>R$ 120,00 | Cores: Branca, Preta</p>
+            <p>Tamanhos: P, M, G,GG</p>
+            <a href="https://wa.me/5547991757458?text=Olá!%20Tenho%20interesse%20na%20Blusa%20Estilosa." target="_blank" class="btn btn-whatsapp">Fazer pedido no WhatsApp</a>
+          </div>
+        </div>
+        
+
+        <!-- Produto 4 -->
+        <div class="carousel-item">
+          <img src="oi2.jpg" class="d-block mx-auto w-50" alt="Blusa Estilosa">
+          <div class="product-info">
+            <h4>Slappywear</h4>
+            <p>R$ 120,00 | Cores: Branca, Preta</p>
+            <p>Tamanhos: P, M, G,GG</p>
+            <a href="https://wa.me/5547991757458?text=Olá!%20Tenho%20interesse%20na%20Blusa%20Estilosa." target="_blank" class="btn btn-whatsapp">Fazer pedido no WhatsApp</a>
+          </div>
+        </div>
+      
+
+      <!-- Botões de controle -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#catalogoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#catalogoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></sp-----------------an>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <!-- Informações finais -->
+    <div class="text-center mt-5">
+      <p>Donos da loja: Cadu e Ferreira</p>
+      <p>Dúvidas? WhatsApp: <strong>+55 (47) 99175-7458</strong></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
